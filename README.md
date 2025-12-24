@@ -24,7 +24,7 @@ Spring Bootを使用したJava Webアプリケーションの雛形プロジェ�
 ## プロジェクト構造
 
 ```
-onigiri-boot/
+springboot-playground/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/onigiriboot/
@@ -40,15 +40,17 @@ onigiri-boot/
 │           └── OnigiriBootApplicationTests.java
 ├── pom.xml                                     # Maven設定ファイル
 ├── mvnw                                        # Maven Wrapper (Unix/Mac)
-└── mvnw.cmd                                    # Maven Wrapper (Windows)
+├── mvnw.cmd                                    # Maven Wrapper (Windows)
+└── README.md                                   # このファイル
 ```
 
 ## セットアップ
 
-### 1. プロジェクトのクローン/ダウンロード
+### 1. プロジェクトのクローン
 
 ```bash
-cd onigiri-boot
+git clone <repository-url>
+cd springboot-playground
 ```
 
 ### 2. 依存関係のダウンロード
